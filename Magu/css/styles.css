@@ -11007,7 +11007,7 @@ footer.footer .social-link:hover {
 }
 @media (max-width: 992px) {
 .noMovil{
-
+display: none;
 }
 }
 .masthead {
