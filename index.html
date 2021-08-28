@@ -1,194 +1,422 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>MAGU Distribuciones</title> <!--Aqui puedes cambiar el nombre que aparece en la pestaña-->
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Barra de navegación es responsiva asi que la versión móvil se actualizará al igual que la normal-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i>Menu</a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">MAGU Distribuciones</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Inicio</a></li>
-                <li class="sidebar-nav-item"><a href="#callout">Plataforma</a></li>
-                <li class="sidebar-nav-item"><a href="#about">Comprar en línea</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Nosotros</a></li>
-                <li class="sidebar-nav-item"><a href="#DIY">Galeria</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contactanos</a></li>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>bootstrap 4 landing page with slider</title>
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- jquery cdn -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 navbar">
+            <a
+              href="index.html"
+              class="logo navbar-brand text-white offset-md-2"
+              >CAJA POPULAR CRISTO REY</a
+            >
+            <ul class="nav">
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Ahorro</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Prestamo</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Inversiones</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Conocenos</a>
+              </li>
             </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <img width =250px src='assets/img/logo.png'>
-                <h1 class="mb-1">MAGU Distribuciones</h1>
-                <h3 class="mb-5"><em>¿Qué proyecto tenemos hoy?</em></h3>
-                <a class="btn btn-primary btn-xl" href="#contact">Contactanos</a>
-                <a class="btn btn-primary btn-xl" href="http://distribucionesmagu.dyndns.org:1945/b2b/index.php">Ir a la plataforma</a>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="masthead Linio content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2>¿No quieres salir de tu casa?</h2>
-                        <p class="lead mb-5">
-                            No hay problema compralo todo en línea, entra desde linio, es fácil y rápido.  
-                        </p>
-                        <a class="btn btn-success btn-xl" href="https://www.linio.com.mx/s/ma-guadalupe-chavez-cardiel">Ir a comprar en línea</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Servicios</h3>
-                    <h2 class="mb-5">¿Que nos caracteriza?</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-wrench"></i></span>
-                        <h4><strong>Calidad 100% Garantizada</strong></h4>
-                        <p class="text-faded mb-0">Tenemos para tí los mejores materiales y herramientas.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Distribuidores oficiales</strong></h4>
-                        <p class="text-faded mb-0">Tenemos las mejores marcas para garantizar que tu proyecto quede como te lo imaginas. </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Los favoritos</strong></h4>
-                        <p class="text-faded mb-0">
-                            de miles de personas 
-                            <i class="fas fa-heart"></i>
-                            ¡Se parte de ellas hoy!
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Servicio personalizado</strong></h4>
-                        <p class="text-faded mb-0">Hemos preparado para tí una plataforma y un servicio excepcional</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Callout-->
-        <section class="callout" id="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 style="color" class="mx-auto mb-5">
-                    ¿Ya eres 
-                    <em>cliente</em>?
-                    ¡Has tu pedido hoy!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="http://distribucionesmagu.dyndns.org:1945/b2b/index.php">Ir a la plataforma</a>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <section class="content-section" id="DIY">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Galeria Hazlo Tu Mismo</h3>
-                    <h2 class="mb-5">Te ayudamos con los mejores materiales y herramientas</h2>
-                </div>
-                <div class="container">
-                    <div class="row">
-                      <a href="assets/img/Galeria/1.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/1.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/2.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/2.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/3.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/3.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/4.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/4.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/5.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/5.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/6.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/6.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/7.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/7.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/8.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/8.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/9.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/9.png" class="img-fluid rounded">
-                      </a>
-                      <a href="assets/img/Galeria/10.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4" style="margin-top:1rem">
-                        <img src="assets/img/Galeria/10.png" class="img-fluid rounded">
-                      </a>
-                    
-                    </div>
+          </div>
+
+          <!-- slider banner	 -->
+          <section id="main">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/logo.png" class="carousel--logo" />
+                  <div class="info">
+                    <h1>AHORRO</h1>
+                    <p>
+                      Protege tu dinero con nosotros y obten todos nuestros
+                      beneficios.
+                    </p>
                   </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/logo.png" class="carousel--logo" />
+                  <div class="info">
+                    <h1>PRESTAMO</h1>
+                    <p>¿Un viaje? ¿Un gasto imprevisto? Nosotros te ayudamos</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/logo.png" class="carousel--logo" />
+                  <div class="info">
+                    <h1>INVERSIONES</h1>
+                    <p>
+                      Has que tus ingresos generen mas ingresos, nosotros te
+                      ayudamos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-        </section>
-        <!-- Call to Action-->
-        <section id="contact" class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">¡Contactanos hoy mismo y comienza tu proyecto ya!</h2>
-                <h3 class="mb-4"><i class="fas fa-phone-alt"></i> Tel: 6181291764 </h3>
-                <a class="btn btn-xl btn-success me-4" href="https://wa.me/526181291764?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo"><i class="fab fa-whatsapp"></i> Envianos un whatsapp</a><br><br>
-                <i class="fas fa-map-pin"></i> Bulevard de la juventud #607-C colonia Luis Echeverría, 34250 Durango, Mexico
-            </div>
-        </section>
-        <!-- Map-->
-        <div class="map" >
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.960600722594!2d-104.62223958501325!3d24.032454484451108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7a252e82c4d%3A0x2320567166f4f99e!2sMagu%20Ferreter%C3%ADa!5e0!3m2!1ses-419!2smx!4v1623775487367!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <br />
-            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
+          </section>
         </div>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/magudistribuciones.ferreteria"><i class="icon-social-facebook"></i></a>
-                    </li>
-                  
-                </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Magu Distibuciones 2021</p>
-            </div>
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        
-         <!-- JQUERY core JS-->
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-         <!-- Gallery core JS-->
-         
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src=" https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-        <script>
-            $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-  });
-        </script>
-    </body>
+      </div>
+    </main>
+    <section class="sc-w section-curve" id="sc-first">
+      <div class="scard">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1>Se parte de nuestra coperativa</h1>
+            <hr />
+            <h3>
+              Nuestros <b class="blue--text">socios</b> tienen muchos beneficios
+              con nosotros como ahorros, prestamos, inversiones, seguros, pago
+              de servicios y mucho más. <br />
+              Uneté a las miles de personas que ya forman parte de nuestra
+              coperativa.
+            </h3>
+			<button style="margin-left:35%; margin-top: 1rem;">Saber mas</button>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="https://images.pexels.com/photos/5668839/pexels-photo-5668839.jpeg?cs=srgb&dl=pexels-sora-shimazaki-5668839.jpg&fm=jpg"
+              alt="Socio"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="wave-blue1">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <section class="sc-b section-curve">
+		<h1>Prestamos</h1>
+		<hr />
+      <p>
+        Dolorem voluptates harum dolor voluptas, consequatur quaerat ullam vel
+        adipisci hic laudantium natus ratione rem perferendis temporibus enim
+        quod non, modi molestias asperiores. Facilis modi culpa cupiditate
+        nihil, praesentium soluta!
+      </p>
+	  <div class="wave-white1">
+		<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+			<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+		</svg>
+	</div>
+    </section>
+    <section>
+      <h1>ejemplo</h1>
+      <p>
+        Sequi dignissimos vero laudantium nemo saepe impedit corporis neque at,
+        veritatis dolorem maiores repudiandae unde necessitatibus quidem laborum
+        inventore eveniet sed suscipit esse delectus consectetur! Placeat,
+        voluptas iure? Aut, dolor.
+      </p>
+    </section>
+    <section>
+      <h1>ejemplo</h1>
+      <p>
+        Et similique harum quam quas voluptates, consectetur nisi accusamus.
+        Consequuntur sed architecto dicta quos veritatis dolorum inventore,
+        voluptas veniam reiciendis obcaecati ipsam pariatur, quisquam, sunt ab
+        incidunt harum debitis et.
+      </p>
+    </section>
+    <section>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ad ea
+      expedita ipsa iste, vero quas. Vero quam, illum quo doloribus ullam
+      officiis. Sint qui voluptas molestias aperiam ducimus debitis. Consectetur
+      perferendis sapiente perspiciatis in aliquam, praesentium et aut animi,
+      dicta, architecto harum non? Atque amet recusandae nesciunt nostrum quia
+      voluptatem necessitatibus at quae, accusantium dolore temporibus sit nisi
+      ex. Autem cupiditate accusamus excepturi commodi nesciunt a at illo
+      consequuntur voluptates voluptate doloremque sunt delectus laudantium,
+      quos fugit aperiam? Numquam asperiores velit aperiam quo ea voluptates
+      cupiditate illum unde quis? Eaque voluptatum dignissimos culpa pariatur,
+      nesciunt doloremque accusamus, natus dolores quis quos omnis unde velit
+      aut magni magnam qui placeat atque exercitationem delectus! Veniam
+      recusandae unde odio, repudiandae perferendis quasi? Quos similique iure
+      pariatur nam, natus excepturi harum a tempora, molestiae quaerat cumque.
+      Quidem, totam! A earum provident, facere vel accusamus quod, blanditiis
+      recusandae debitis molestiae tempore quasi voluptas. Officiis? Recusandae
+      ratione sed cumque tempore, dolore, culpa minima laboriosam at odit soluta
+      voluptates nobis voluptate consequatur. Perferendis ullam cumque,
+      obcaecati autem illum eligendi consectetur distinctio magnam minima
+      dolorem sed neque. Corporis, quasi repellat dolorum sed amet porro aperiam
+      repudiandae non dolor officia quo dicta maiores placeat debitis vitae
+      eaque facilis quia quas! Explicabo, ipsam animi quia id ex eius tempore.
+      Voluptatibus libero iure odit exercitationem nihil eaque dolores maiores
+      enim at commodi eum labore voluptate fugit, ipsum minus quod incidunt vero
+      dolore aperiam quo dolor ipsam ab deserunt suscipit. Ad? Fuga totam,
+      aliquam illo quae, sunt, aspernatur numquam blanditiis nesciunt quisquam
+      commodi vero. Quis pariatur natus animi! Ipsum soluta non, tempora,
+      blanditiis iste odit tempore temporibus explicabo veritatis, laudantium
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, assumenda!
+      Id, qui consequuntur dicta placeat ex expedita quae odio aliquam suscipit
+      dignissimos cum harum debitis amet eius excepturi! Sed, doloribus. Alias
+      hic fugit molestiae officia omnis? Officia enim molestias ea est eligendi
+      assumenda autem! Cum esse et blanditiis asperiores alias voluptas
+      quibusdam eum maiores fuga! Eius dolore sed dolorem commodi? Quo at modi
+      maxime molestias facere officia neque dolore aspernatur, quibusdam earum
+      odit quaerat deserunt eligendi debitis ea saepe eos aliquam!
+      Exercitationem magni deserunt quidem, laboriosam alias iure aliquam
+      debitis. Ut corporis, in dolores pariatur incidunt at labore, officia
+      magni aspernatur iste mollitia a aperiam delectus ab dolorum optio, sit
+      fuga ducimus sed? Porro nam aliquam, soluta animi a dolorem! Repudiandae,
+      dolores quos veritatis vel optio doloremque. Ipsa tempore sunt neque
+      inventore commodi sint explicabo? Quo, unde impedit? Architecto aliquid
+      quidem est dolor quam cum accusantium harum rem dolores mollitia? Neque
+      temporibus quibusdam sequi veritatis numquam corrupti laboriosam
+      exercitationem harum consequuntur provident debitis fuga possimus maxime
+      maiores recusandae at atque vero totam aliquid quia reiciendis, veniam
+      nobis excepturi! Nihil, tempore? Repellendus modi at ex quod voluptatum
+      asperiores, obcaecati ut. Est ducimus delectus incidunt eius repudiandae
+      blanditiis corrupti asperiores tempora, veniam labore? Adipisci nulla
+      eaque eveniet modi dolorem numquam exercitationem dicta. Fugit illum,
+      ducimus eaque asperiores sequi qui architecto aut beatae eius animi dolore
+      reprehenderit quod quibusdam, est maxime. Ut, consequatur nobis! Veniam
+      reiciendis eaque sunt molestiae aspernatur ea, consequuntur odio? Earum
+      incidunt, consequatur perspiciatis saepe eaque tempora deleniti libero
+      quae nemo veritatis tenetur fugit! Voluptatem rerum illum architecto?
+      Doloribus perferendis voluptates voluptatum cumque reprehenderit in
+      suscipit magni laboriosam provident totam! Minus corporis aspernatur vel,
+      esse, alias, debitis repellat non enim voluptas aperiam est voluptatibus
+      nesciunt! Aliquid qui aspernatur eligendi dolorem? Nam vero voluptas,
+      maxime quidem possimus nobis alias voluptatum. Repudiandae. Eius,
+      doloremque eveniet minima illo molestias, accusamus quasi minus nostrum
+      reprehenderit deserunt non ipsam. Aliquid excepturi eveniet quod. Tempora
+      eius ipsa nesciunt repellat iure dignissimos soluta tempore pariatur quos
+      error? Officiis ipsam optio facere eius fugiat necessitatibus odit sequi
+      suscipit fugit, nostrum autem recusandae vitae excepturi possimus rem
+      repellendus impedit. Recusandae sequi illo culpa provident impedit quaerat
+      eum quam rem? Soluta quisquam quaerat laboriosam sunt obcaecati quis,
+      molestias consectetur atque corrupti. Eligendi tempore temporibus, rem
+      veniam qui, non repellendus nam, maiores quasi aliquam repellat adipisci
+      nisi numquam sint? Commodi, vitae. Distinctio itaque velit, deserunt ipsa
+      illo aspernatur quae. Sed libero ea corrupti, quisquam nihil modi autem
+      dolorem, minus fuga, eaque aut molestiae quasi ad doloremque optio porro
+      quos esse corporis. Blanditiis natus harum excepturi eius molestiae optio
+      recusandae molestias sunt, nemo veritatis esse enim itaque sequi
+      accusantium. Est, ullam veritatis totam aut ipsam quia vel architecto
+      repellendus magni aliquid qui. Nam maiores quia ullam voluptatum id,
+      delectus similique, repellendus repellat ratione adipisci reiciendis ex
+      suscipit dolores recusandae nulla omnis iure nesciunt, consequatur quidem
+      expedita repudiandae optio? Aut alias magni eum. Incidunt nam sit rem
+      ipsam nostrum corrupti ex. Sapiente magni numquam quam laudantium
+      accusantium, maiores error et expedita quas voluptas tenetur, quod quae ad
+      nemo explicabo pariatur. Molestiae, facilis neque? Necessitatibus, quidem
+      quae, nihil itaque excepturi esse laudantium quas suscipit ullam deleniti
+      quasi possimus voluptas quod sunt. Velit in molestias itaque repellat
+      eaque, fuga beatae commodi odio. Voluptate, officia quidem. Sequi nisi
+      tempora saepe ea voluptatibus nulla recusandae quas. Fugiat ea quae eius
+      eveniet nostrum ullam hic eaque ex? Sed animi, aperiam atque error ducimus
+      magnam magni unde accusantium nobis. A eum sequi placeat amet possimus
+      repellendus cupiditate molestiae exercitationem laborum, tempore in omnis
+      velit dolore optio tempora labore quos mollitia assumenda nemo dicta ipsa
+      earum sunt, aspernatur autem. Quas? Tempore nostrum ea tenetur quaerat
+      modi, aliquam dolore, molestias ut repellendus cupiditate pariatur?
+      Necessitatibus minus quae alias quo veniam, nemo, fugiat voluptate
+      recusandae modi ea voluptatum voluptatibus quia harum perspiciatis? Alias
+      fuga accusamus eius nesciunt, odio delectus, sapiente similique soluta
+      veritatis ut asperiores. Vero sed rerum expedita assumenda fuga laborum
+      veritatis placeat mollitia. Accusantium libero dolorem voluptate sapiente
+      aut nemo? Nisi saepe obcaecati ipsa, deleniti natus nostrum est
+      dignissimos nesciunt exercitationem necessitatibus doloremque perferendis
+      minima? Culpa deleniti ducimus minus voluptatem, quisquam aspernatur
+      itaque iure aliquam quae nulla, ex, odit possimus! Explicabo laudantium
+      dolorem animi amet sit error a iste. Amet sit aperiam, in voluptatem
+      architecto perspiciatis a modi fuga accusamus eveniet, explicabo animi,
+      nam vel asperiores sunt quidem! Nulla, hic. Sunt eligendi nemo ipsam
+      itaque voluptates laborum temporibus molestias, perferendis, recusandae
+      facilis at aperiam tempore incidunt aliquid harum blanditiis cum.
+      Voluptates, maiores vero temporibus harum pariatur perferendis in
+      inventore ad! Eveniet, ut ullam. Facilis vero, maiores error provident
+      molestiae nobis odio velit deserunt doloribus non praesentium ex quos
+      deleniti delectus eos possimus repudiandae? Id perferendis, dolore dicta
+      dignissimos ipsum officiis! Ut sunt dicta, culpa recusandae voluptatum
+      autem quos ea aut aliquid similique fugit excepturi rerum voluptate
+      molestiae commodi nostrum deleniti sed iusto eius quam maxime. Ipsa
+      delectus quae in quis. Harum ullam, repellendus modi nam molestiae
+      sapiente. Quis quaerat magnam nihil? Nihil dolor eius itaque odit cum
+      molestias voluptas eaque. Repellendus ea eligendi perspiciatis libero
+      unde? Sapiente, fugiat recusandae! Incidunt? Ullam quasi labore ut fuga
+      non id dicta suscipit, doloremque maiores laborum repellendus numquam
+      impedit, reprehenderit repudiandae. Quas maxime similique atque error
+      debitis distinctio, eos, libero provident nostrum, dolor hic. Iure
+      expedita enim, quae recusandae cupiditate dicta quisquam harum et
+      praesentium accusamus reprehenderit quaerat eveniet corporis blanditiis
+      molestiae beatae perspiciatis eaque non adipisci similique. Molestias
+      magnam quo a ipsam quae. Tempore expedita delectus laborum ipsam
+      reprehenderit! Minus officia voluptatum reprehenderit labore, repellendus
+      temporibus at suscipit, in, eligendi obcaecati a quam. Magni itaque,
+      fugiat sint reprehenderit beatae quidem sit odit praesentium. Illo
+      nesciunt fugit eos dicta harum suscipit autem voluptatem? Doloremque
+      exercitationem assumenda nobis asperiores tenetur. Magnam consectetur
+      eligendi aut mollitia, soluta nobis doloremque exercitationem eum corrupti
+      ducimus debitis voluptates necessitatibus. Rem labore delectus quam
+      pariatur obcaecati quaerat quibusdam minus minima nulla voluptatem,
+      voluptatum dolorem nobis excepturi esse, quasi cumque qui eveniet corrupti
+      ut debitis aliquid in totam! Nostrum, maxime iusto. Soluta odit, iusto
+      mollitia officia nulla consequuntur debitis doloribus inventore facere
+      quis, quibusdam cumque excepturi sed incidunt laboriosam sequi eos!
+      Laudantium illum quisquam sequi sapiente et aspernatur voluptas doloremque
+      autem? Voluptatem laborum aut nesciunt exercitationem voluptates voluptate
+      quia modi itaque deserunt doloribus error molestiae tenetur magni et cum
+      corporis ipsum praesentium debitis, porro esse hic amet maxime excepturi?
+      Necessitatibus, deleniti? Officiis repudiandae dolores obcaecati aut ut
+      pariatur facilis, sit autem cum ipsa velit vitae exercitationem,
+      voluptatibus excepturi. Labore facilis culpa vel eos, minus quasi
+      architecto fuga rem dolorem quos doloremque? Dolore numquam sit natus
+      laudantium ut dolorem, ad cum eveniet aspernatur aut voluptas? Quo
+      dignissimos minima nesciunt consectetur libero omnis deleniti similique
+      nisi esse temporibus nihil perferendis, magni iure a. Aspernatur unde,
+      sapiente quod ab at voluptatum asperiores? Sapiente beatae cum nesciunt
+      minima ipsam. Fugit beatae dicta quas nisi temporibus autem iure
+      perferendis hic fuga exercitationem, ipsa quisquam illum voluptatibus.
+      Accusantium dolorem dolores dolorum, error voluptatem impedit reiciendis.
+      Placeat sit omnis similique voluptas tempora voluptates adipisci vel
+      tenetur enim eligendi, ipsa deleniti illum dolorem totam dolore et maxime
+      autem quas? Est et placeat tenetur reiciendis eligendi corporis vel ea
+      qui, delectus deleniti illo tempore officia modi molestias, nostrum
+      voluptate suscipit ut labore culpa nesciunt harum? Maxime, laborum nulla!
+      Et, facere! Vero, sit modi soluta ipsum voluptas a? At, dolore provident?
+      Suscipit, tempora ipsum? Facilis, tempora, inventore enim eum officiis ex
+      magnam quasi suscipit mollitia accusantium non culpa quidem cumque rem.
+      Iusto consequatur in neque et? Corporis officiis at necessitatibus est
+      similique placeat voluptate maiores quos sint deserunt adipisci ducimus
+      voluptates hic, repellendus, itaque aut quia quisquam ipsum, rerum
+      laudantium voluptas? Fuga, delectus dolorem incidunt tempora deleniti
+      voluptatem rem sapiente maxime iste similique atque architecto blanditiis!
+      Tenetur, ab porro modi debitis id tempore sint! Nam voluptatum ducimus
+      officiis eligendi. Nihil, fuga. Obcaecati facere tempore odio minus dicta,
+      beatae totam vel ducimus qui doloremque voluptatum. Veritatis assumenda
+      nobis dolorum voluptatibus est mollitia nam asperiores nulla. Non ipsam
+      suscipit optio sunt modi sint. Repellendus voluptate dolores sequi cumque
+      numquam voluptatum quidem sit corrupti sunt reiciendis quos repellat minus
+      neque placeat doloribus, est delectus libero dolor animi reprehenderit
+      optio, hic itaque. Placeat, ex sint! Sed laudantium, ratione beatae
+      adipisci eum recusandae voluptatum illum ducimus eius esse velit culpa
+      modi accusantium nemo voluptatem quod quis in. Ipsa nostrum saepe iusto
+      commodi. Odit harum provident cumque? Temporibus numquam maxime
+      perferendis quaerat, ea et, facilis, fugiat ipsam adipisci velit eum eos
+      itaque aperiam voluptates deleniti esse quas totam aliquam? Alias
+      temporibus, nemo blanditiis omnis praesentium sint perferendis? Dolores
+      ipsum ratione iste at. Cupiditate, odio esse alias tempore ipsum quam enim
+      repudiandae minima accusantium doloribus minus asperiores, sed laudantium
+      quaerat rerum recusandae at consequuntur iure necessitatibus soluta
+      perspiciatis! Voluptatibus iste unde tempora. Aliquam quidem repellendus
+      voluptatibus necessitatibus magnam facere doloribus alias itaque beatae,
+      blanditiis repellat recusandae, excepturi voluptate ab neque reprehenderit
+      expedita, eius accusantium ipsum corporis nihil aspernatur! Ipsam totam
+      accusantium minus tenetur rerum laboriosam ex maxime vitae facere
+      consequuntur, natus cum dolorum vero eaque maiores repudiandae
+      reprehenderit iure corrupti eveniet qui ullam! Dolores impedit
+      voluptatibus error vel? sed?
+    </section>
+
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script>
+      //Parallax
+      let info = document.getElementsByClassName("info"); //jumbotron text
+      let logo = document.getElementsByClassName("carousel--logo"); //logo images
+      let scroll = window.addEventListener("scroll", () => {
+        let value = window.scrollY;
+        Array.prototype.forEach.call(info, function (el) {
+          el.style.top = value * 0.12 + 50 + "%";
+        });
+        Array.prototype.forEach.call(logo, function (el) {
+          el.style.top = value * 0.08 + 30 + "%";
+        });
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+  </body>
 </html>
